@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yasin Günay</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="file.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </head>
+  <body class="dark-theme">
+    <section class="hero">
+      <div class="hero-pic">
+        <div class="inner-circle"></div>
+        <img
+          src="assets/hero.png"
+          alt="Yasin Günay"
+        />
+      </div>
+      <div class="hero-info">
+        <h1>Yasin Günay</h1>
+        <h2>Software Developer</h2>
+        <div class="logo-container">
+          <a href="https://github.com/yasingunay"
+            ><img src="assets/github_dark.png" alt="github logo"
+          /></a>
+          <a href="https://linkedin.com/in/yasingunay"
+            ><img src="assets/linkedin_dark.png" alt="linkedin logo"
+          /></a>
+          <a href="mailto:yasingunaydev@gmail.com"
+            ><img src="assets/email_dark.png" alt="email logo"
+          /></a>
+          <a href="https://www.youtube.com/@gunayyasin/videos">
+            <img src="assets/youtube_dark.svg" alt="youTube logo">
+          </a>
+        </div>
+      </div>
+    </section>
+    <section class="cta">
+      <a href="assets/resume.pdf" download>
+        <button class="btn download-btn">Download CV</button>
+      </a>
+      <a href="mailto:yasingunaydev@gmail.com"
+        ><button class="btn contact-btn">Contact Me</button></a
+      >
+    </section>
+    <section class="portfolio-skills">
+      <div class="btn-bg">
+        <button class="btn-2 active-btn" id="portfolio-btn">Portfolio</button>
+        <button class="btn-2" id="skills-btn">Skills</button>
+        <button class="btn-2" id="certificates-btn">Certificates</button>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="wrapper project-wrapper">
+        <div class="card">
+            <div class="card-header">Network</div>
+            <div class="card-body">
+                <a href="https://github.com/yasingunay/Network"
+                ><img src="assets/all.png" alt="Project 1"
+              /></a>
+            </div>
+            <div class="card-footer">JavaScript · Python · Django</div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="card">
+            <div class="card-header">Wiki</div>
+            <div class="card-body">
+        <a href="https://github.com/yasingunay/Wiki"
+          ><img src="assets/wiki.png" alt="Project 4"
+        /></a>
+        </div>
+            <div class="card-footer">Python · Django</div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="card">
+            <div class="card-header">Commerce</div>
+            <div class="card-body">
+        <a href="https://github.com/yasingunay/Commerce"
+          ><img src="assets/index.png" alt="Project 3"
+        /></a>
+        </div>
+            <div class="card-footer">SQL · Python · Django</div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="card">
+            <div class="card-header">Mail</div>
+            <div class="card-body">
+        <a href="https://github.com/yasingunay/Mail"
+          ><img src="assets/inbox.png" alt="Project 2"
+        /></a>
+        </div>
+            <div class="card-footer">JavaScript · Python · Django</div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="card">
+            <div class="card-header">MyChatBot</div>
+            <div class="card-body">
+        <a href="https://github.com/yasingunay/MyChatBot"
+          ><img src="assets/chatbot.png" alt="Project 4"
+        /></a>
+        </div>
+            <div class="card-footer">API · Python · JavaScript</div>
+        </div>
+      </div>
+      <div class="wrapper project-wrapper">
+        <div class="card">
+            <div class="card-header">MyLibrary</div>
+            <div class="card-body">
+        <a href="https://github.com/yasingunay/MyLibrary"
+          ><img src="assets/mylibrary.png" alt="Project 4"
+        /></a>
+        </div>
+            <div class="card-footer">SQL · Python · Flask</div>
+        </div>
+      </div>
+    </section>
+    <section class="skills" id="skills">
+        <div class="wrapper">
+            <h3>Frontend Skills</h3>
+            <article class="frontend-skills">
+                <p class="skill">HTML</p>
+                <p class="skill">CSS</p>
+                <p class="skill">JavaScript</p>
+                <p class="skill">Bootstrap</p>
+            </article>
+        </div>
+        <div class="wrapper">
+            <h3>Backend Skills</h3>
+            <article class="backend-skills">
+                <p class="skill">Python</p>
+                <p class="skill">Django</p>
+                <p class="skill">Flask</p>
+                <p class="skill">SQL</p>
+                <p class="skill">Restful API’s</p>
+                <p class="skill">C</p>
+                <p class="skill">Version control (Git)</p>
+            </article>
+        </div>
+    </section>
+
+    <section class="portfolio" id="certificates">
+        <div class="wrapper project-wrapper">
+          <a href="https://certificates.cs50.io/668a82c7-2884-4cad-9758-de40e93e4d9a.pdf?size=letter"
+            ><img src="assets/CS50x.png" alt="cx50x"
+          /></a>
+        </div>
+        <div class="wrapper project-wrapper">
+            <a href="https://certificates.cs50.io/fa734e4d-1324-4e3b-b453-408b6a3595bd.pdf?size=letter"
+              ><img src="assets/CS50P.png" alt="cs50p"
+            /></a>
+          </div>
+      </section>
+    
+
+    <footer>
+      <p>&copy Yasin Günay 2023</p>
+    </footer>
+  </body>
+</html>
