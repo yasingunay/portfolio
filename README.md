@@ -1,1 +1,0 @@
-# yasingunay-portfolio
